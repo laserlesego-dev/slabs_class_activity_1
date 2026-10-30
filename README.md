@@ -1,26 +1,27 @@
- # slabs_class_activity_1
- {Southern Labs Programming Activity}
- cd Desktop
- mkdir slabs_class_activity_1
- cd slabs_class_activity_1
- 
- vim hardware.md
- i
- pwd
- 
- emacs software.md
- # Ctrl+X Ctrl+S
- ls
- 
- git config --global user.name "laserlesego"
- git config --global user.email "laserlesego@laserlesego-dev.com"
- 
- git init
- 
- git status
- 
- git add .
- 
- git commit -m "Initial commit with hardware and software markdown files"
- 
- git log --oneline
+# Cornercart Traders Website
+
+This project is a responsive FMCG wholesale and micro-distribution website for Cornercart Traders.
+
+## Features
+- Premium dark wholesale brand aesthetic
+- Home, wholesale catalogue, brands, pep entrepreneur programme, and contact pages
+- Product search and category filters
+- Unit and bulk price toggles
+- Enquiry and WhatsApp lead generation
+- Admin dashboard for products, brands, enquiries, and programme applications
+- Local storage persistence for demo data and form submissions
+
+## Local setup
+```bash
+npm install
+npm run dev
+```
+
+Open the local URL shown by Vite in your browser.
+
+## Admin access
+- Username: cornercart
+- Password: admin2026
+
+## Notes
+This is a front-end demo with secure demo access implemented in-browser and local storage persistence.
